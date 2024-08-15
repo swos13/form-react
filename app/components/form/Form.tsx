@@ -15,7 +15,8 @@ const Form = ({addUser}: {addUser: (newUser: User) => void}) => {
         firstName: "",
         lastName: "",
         email: "",
-        phone: ""
+        phone: "",
+        id: 0
     })
 
     const handleSubmit = (event: SyntheticEvent<HTMLFormElement>) => {

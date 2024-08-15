@@ -11,7 +11,7 @@ const List = ({users}: {users: UserInterface[]}) => {
                 <h3 className="col-span-2">Email</h3>
                 <h3>Phone</h3>
                 <h3></h3>
-                {users.map((user, index) => <User key={index} {...user} />)}
+                {users.map(user => <User key={user.id} {...user} />)}
             </div>
         </section>
     )
