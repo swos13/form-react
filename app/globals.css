@@ -7,3 +7,7 @@ body {
     height: 100dvh;
     width: 100dvw;
 }
+
+input:user-invalid {
+    background-color: rgba(255, 140, 140, 0.8);
+}
